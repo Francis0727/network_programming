@@ -17,3 +17,7 @@
 > open("readme.txt", O_WRONLY | O_APPEND | O_CREAT)<br>
 > write(fd1,content,sizeof(content))<br>
 > read(fd2,content,sizeof(content));<br>
+# 03 TCP通信的无边界问题<br>
+## 实现功能<br>
+> 服务器端一次性发送完整的数据包，客户端分为多次进行接收。通过这个实验，
+> 来验证TCP通信无边界问题(即,read函数调用次数不必与write函数调用次数相对应)
