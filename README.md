@@ -49,3 +49,6 @@
 # 10 gethostaddr<br>
 ## 实现功能<br>
 >通过IP地址获取主机信息(注: 需在/etc/hosts文件中添加类似115.239.211.110 www.baidu.com)
+# 10 getsocketopt函数使用<br>
+## 实现功能<br>
+> 获取socket的设置参数，实例中进行了socket type的获取
